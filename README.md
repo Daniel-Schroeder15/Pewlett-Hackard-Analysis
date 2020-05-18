@@ -6,6 +6,7 @@ The resources given to me in the beginning of the module included six excel file
 ![EmployeeDB](https://github.com/Daniel-Schroeder15/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
 
 ## Challenge Technical Analysis
+  # Deliverable 1
 The “retirement_title_count.csv” includes the number of individuals retiring categorized by the most recent title of each employee. The table includes the total number for Assistant Engineer, Engineer, Manager, Senior Engineer, Senior Staff, Staff, and Technique Leader. The first table created contained duplicates, because some employees have switch titles over the years. The duplicates needed to be removed by partitioning the data in a table into smaller bits so we can view what is necessary.
 
 -	501 – Assistant Engineer
@@ -18,7 +19,7 @@ The “retirement_title_count.csv” includes the number of individuals retiring
 
 Further Analysis for retiring employees would include the number of employees that are currently working for Pewlett Hackarad. Also, the sum of salaries for those currently employed and near to retirement. To get this “retirement_title_count” table, I used the original employees, titles, and salaries csv files. The connection between the three is displayed above in the ERD.
 
-
+  # Deliverable 2
 The “eligible_list.csv” includes the number of current employees available for the mentorship program. The table shows 1549 current employees that have a date of birth that falls between January 1, 1965 and December 31, 1965. The first table created contained duplicates, because some employees have switch titles over the years. The duplicates needed to be removed by partitioning the data in a table into smaller bits so we can view what is necessary.
 
 Further Analysis for employees eligible for the mentorship program would include the number of employees for the following year. One could also offer the program to those in their current job title for two or more years. This would require an additional table that displays employees eligible for the following year and/or those who have been in their current title for two or more years.To get this “eligible_list” table, I used the original employees, dept_emp, and titles csv files. The connection between the three is displayed above in the ERD with the employee number.
