@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 
 
-The resources given to me in the beginning of the module included six excel files. With in these files, included common columns that served as primary keys to reference from that allows PostgreSQL to Create, read, update and delete new and improved revealing tables. The Entity Relationship Diagram (ERD) below describes the relationship between each of the starting six files.
+The resources given to me in the beginning of the module included six excel files. Within these files, included common columns that served as primary keys to reference from that allows PostgreSQL to Create, read, update and delete new and improved revealing tables. The Entity Relationship Diagram (ERD) below describes the relationship between each of the starting six files.
 
 ![EmployeeDB](https://github.com/Daniel-Schroeder15/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
 
