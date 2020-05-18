@@ -2,7 +2,8 @@
 
 
 The resources given to me in the beginning of the module included six excel files. With in these files, included common columns that served as primary keys to reference from that allows PostgreSQL to Create, read, update and delete new and improved revealing tables. The Entity Relationship Diagram (ERD) below describes the relationship between each of the starting six files.
-![EmployeeDB] (https://github.com/Daniel-Schroeder15/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
+
+![EmployeeDB](https://github.com/Daniel-Schroeder15/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
 
 ## Challenge Technical Analysis
 The “retirement_title_count.csv” includes the number of individuals retiring categorized by the most recent title of each employee. The table includes the total number for Assistant Engineer, Engineer, Manager, Senior Engineer, Senior Staff, Staff, and Technique Leader. The first table created contained duplicates, because some employees have switch titles over the years. The duplicates needed to be removed by partitioning the data in a table into smaller bits so we can view what is necessary.
