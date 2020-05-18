@@ -20,4 +20,5 @@ Further Analysis for retiring employees would include the number of employees th
 
 
 The “eligible_list.csv” includes the number of current employees available for the mentorship program. The table shows 1549 current employees that have a date of birth that falls between January 1, 1965 and December 31, 1965. The first table created contained duplicates, because some employees have switch titles over the years. The duplicates needed to be removed by partitioning the data in a table into smaller bits so we can view what is necessary.
-To get this “eligible_list” table, I used the original employees, dept_emp, and titles csv files. The connection between the three is displayed above in the ERD with the employee number.
+
+Further Analysis for employees eligible for the mentorship program would include the number of employees for the following year. One could also offer the program to those in their current job title for two or more years. This would require an additional table that displays employees eligible for the following year and/or those who have been in their current title for two or more years.To get this “eligible_list” table, I used the original employees, dept_emp, and titles csv files. The connection between the three is displayed above in the ERD with the employee number.
